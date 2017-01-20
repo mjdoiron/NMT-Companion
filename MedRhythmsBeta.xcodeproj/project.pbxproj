@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960276191DB97329007CEDE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960276181DB97329007CEDE3 /* SecondViewController.swift */; };
+		9602761C1DB973C6007CEDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9602761A1DB973C6007CEDE3 /* Main.storyboard */; };
 		962287F31DB5B15D00402C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962287F21DB5B15D00402C53 /* AppDelegate.swift */; };
 		962287F51DB5B15D00402C53 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962287F41DB5B15D00402C53 /* FirstViewController.swift */; };
-		962287F71DB5B15D00402C53 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962287F61DB5B15D00402C53 /* SecondViewController.swift */; };
-		962287FA1DB5B15D00402C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962287F81DB5B15D00402C53 /* Main.storyboard */; };
-		962287FC1DB5B15D00402C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962287FB1DB5B15D00402C53 /* Assets.xcassets */; };
 		962287FF1DB5B15D00402C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962287FD1DB5B15D00402C53 /* LaunchScreen.storyboard */; };
 		9622880A1DB5B15D00402C53 /* MedRhythmsBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962288091DB5B15D00402C53 /* MedRhythmsBetaTests.swift */; };
 		962288151DB5B15D00402C53 /* MedRhythmsBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962288141DB5B15D00402C53 /* MedRhythmsBetaUITests.swift */; };
+		962288291DB5C37400402C53 /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962288281DB5C37400402C53 /* Conductor.swift */; };
+		9622882B1DB5C3CD00402C53 /* MetronomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9622882A1DB5C3CD00402C53 /* MetronomeType.swift */; };
+		9622882F1DB5C52900402C53 /* HelloSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9622882D1DB5C52900402C53 /* HelloSound.wav */; };
+		962288301DB5C52900402C53 /* ImPeterSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9622882E1DB5C52900402C53 /* ImPeterSound.wav */; };
+		969813D41DB6C0D0003BBCC7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969813D31DB6C0D0003BBCC7 /* ThirdViewController.swift */; };
+		969CC9BB1E2EE93D00BB1A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969CC9BA1E2EE93D00BB1A5A /* Assets.xcassets */; };
+		969CC9BD1E2EF5F000BB1A5A /* AudioKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969CC9BC1E2EF5F000BB1A5A /* AudioKitController.swift */; };
+		96FDBFF31DDE2E77000FE0F3 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FDBFF21DDE2E77000FE0F3 /* AudioKit.framework */; };
+		96FDBFF41DDE2E77000FE0F3 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96FDBFF21DDE2E77000FE0F3 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +42,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		96FDBFF51DDE2E77000FE0F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96FDBFF41DDE2E77000FE0F3 /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		960276181DB97329007CEDE3 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9602761B1DB973C6007CEDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		962287EF1DB5B15D00402C53 /* MedRhythmsBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedRhythmsBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		962287F21DB5B15D00402C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		962287F41DB5B15D00402C53 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		962287F61DB5B15D00402C53 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		962287F91DB5B15D00402C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		962287FB1DB5B15D00402C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962287FE1DB5B15D00402C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		962288001DB5B15D00402C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962288051DB5B15D00402C53 /* MedRhythmsBetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedRhythmsBetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +70,14 @@
 		962288101DB5B15D00402C53 /* MedRhythmsBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedRhythmsBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		962288141DB5B15D00402C53 /* MedRhythmsBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedRhythmsBetaUITests.swift; sourceTree = "<group>"; };
 		962288161DB5B15D00402C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962288281DB5C37400402C53 /* Conductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
+		9622882A1DB5C3CD00402C53 /* MetronomeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeType.swift; sourceTree = "<group>"; };
+		9622882D1DB5C52900402C53 /* HelloSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HelloSound.wav; sourceTree = "<group>"; };
+		9622882E1DB5C52900402C53 /* ImPeterSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ImPeterSound.wav; sourceTree = "<group>"; };
+		969813D31DB6C0D0003BBCC7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../../../../../../../Work/dev/Projects/Current/MedRhythmsBeta/MedRhythmsBeta/ThirdViewController.swift; sourceTree = "<group>"; };
+		969CC9BA1E2EE93D00BB1A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969CC9BC1E2EF5F000BB1A5A /* AudioKitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioKitController.swift; sourceTree = "<group>"; };
+		96FDBFF21DDE2E77000FE0F3 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FDBFF31DDE2E77000FE0F3 /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +109,7 @@
 		962287E61DB5B15D00402C53 = {
 			isa = PBXGroup;
 			children = (
+				96FDBFF21DDE2E77000FE0F3 /* AudioKit.framework */,
 				962287F11DB5B15D00402C53 /* MedRhythmsBeta */,
 				962288081DB5B15D00402C53 /* MedRhythmsBetaTests */,
 				962288131DB5B15D00402C53 /* MedRhythmsBetaUITests */,
@@ -99,13 +130,18 @@
 		962287F11DB5B15D00402C53 /* MedRhythmsBeta */ = {
 			isa = PBXGroup;
 			children = (
+				969CC9BA1E2EE93D00BB1A5A /* Assets.xcassets */,
+				9602761A1DB973C6007CEDE3 /* Main.storyboard */,
 				962287F21DB5B15D00402C53 /* AppDelegate.swift */,
 				962287F41DB5B15D00402C53 /* FirstViewController.swift */,
-				962287F61DB5B15D00402C53 /* SecondViewController.swift */,
-				962287F81DB5B15D00402C53 /* Main.storyboard */,
-				962287FB1DB5B15D00402C53 /* Assets.xcassets */,
+				960276181DB97329007CEDE3 /* SecondViewController.swift */,
+				969813D31DB6C0D0003BBCC7 /* ThirdViewController.swift */,
+				962288281DB5C37400402C53 /* Conductor.swift */,
+				9622882A1DB5C3CD00402C53 /* MetronomeType.swift */,
 				962287FD1DB5B15D00402C53 /* LaunchScreen.storyboard */,
 				962288001DB5B15D00402C53 /* Info.plist */,
+				9622882C1DB5C51100402C53 /* Sounds */,
+				969CC9BC1E2EF5F000BB1A5A /* AudioKitController.swift */,
 			);
 			path = MedRhythmsBeta;
 			sourceTree = "<group>";
@@ -128,6 +164,15 @@
 			path = MedRhythmsBetaUITests;
 			sourceTree = "<group>";
 		};
+		9622882C1DB5C51100402C53 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9622882D1DB5C52900402C53 /* HelloSound.wav */,
+				9622882E1DB5C52900402C53 /* ImPeterSound.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +183,8 @@
 				962287EB1DB5B15D00402C53 /* Sources */,
 				962287EC1DB5B15D00402C53 /* Frameworks */,
 				962287ED1DB5B15D00402C53 /* Resources */,
+				96A3A79C1DB957EE002ED880 /* Run Script */,
+				96FDBFF51DDE2E77000FE0F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Work;
 				TargetAttributes = {
 					962287EE1DB5B15D00402C53 = {
@@ -211,7 +258,7 @@
 				};
 			};
 			buildConfigurationList = 962287EA1DB5B15D00402C53 /* Build configuration list for PBXProject "MedRhythmsBeta" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -236,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				962287FF1DB5B15D00402C53 /* LaunchScreen.storyboard in Resources */,
-				962287FC1DB5B15D00402C53 /* Assets.xcassets in Resources */,
-				962287FA1DB5B15D00402C53 /* Main.storyboard in Resources */,
+				9602761C1DB973C6007CEDE3 /* Main.storyboard in Resources */,
+				962288301DB5C52900402C53 /* ImPeterSound.wav in Resources */,
+				9622882F1DB5C52900402C53 /* HelloSound.wav in Resources */,
+				969CC9BB1E2EE93D00BB1A5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +306,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96A3A79C1DB957EE002ED880 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		962287EB1DB5B15D00402C53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962287F71DB5B15D00402C53 /* SecondViewController.swift in Sources */,
+				960276191DB97329007CEDE3 /* SecondViewController.swift in Sources */,
 				962287F31DB5B15D00402C53 /* AppDelegate.swift in Sources */,
+				962288291DB5C37400402C53 /* Conductor.swift in Sources */,
+				9622882B1DB5C3CD00402C53 /* MetronomeType.swift in Sources */,
+				969813D41DB6C0D0003BBCC7 /* ThirdViewController.swift in Sources */,
+				969CC9BD1E2EF5F000BB1A5A /* AudioKitController.swift in Sources */,
 				962287F51DB5B15D00402C53 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,13 +370,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		962287F81DB5B15D00402C53 /* Main.storyboard */ = {
+		9602761A1DB973C6007CEDE3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				962287F91DB5B15D00402C53 /* Base */,
+				9602761B1DB973C6007CEDE3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = /Users/work/dev/Projects/Current/MedRhythmsBeta/MedRhythmsBeta/MedRhythmsBeta;
+			sourceTree = "<absolute>";
 		};
 		962287FD1DB5B15D00402C53 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -337,6 +408,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -387,6 +459,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -416,11 +489,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MedRhythmsBeta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MattDoiron.MedRhythmsBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -428,11 +506,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MedRhythmsBeta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MattDoiron.MedRhythmsBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -509,6 +592,7 @@
 				9622881B1DB5B15D00402C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9622881C1DB5B15D00402C53 /* Build configuration list for PBXNativeTarget "MedRhythmsBetaTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +601,7 @@
 				9622881E1DB5B15D00402C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9622881F1DB5B15D00402C53 /* Build configuration list for PBXNativeTarget "MedRhythmsBetaUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +610,7 @@
 				962288211DB5B15D00402C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
